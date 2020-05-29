@@ -2,16 +2,20 @@
   "name": "Elefante",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://mudouasenha.github.io/Elefante",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "gh-pages -d build --env=jsdom",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "next": "^9.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
