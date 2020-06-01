@@ -8,7 +8,7 @@ const Layout = (props) => (
     <Head>
       <title>Elefante</title>
     </Head>
-    <Box py={10} mx={[122.5, 277]}>
+    <Box py={10} mx={{ _: 122.5, sm: 122.5, md: 122.5, lg: 122.5, xl: 277 }}>
       <Navbar />
       {props.children}
     </Box>
