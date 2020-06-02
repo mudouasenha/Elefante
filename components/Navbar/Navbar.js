@@ -28,6 +28,8 @@ const Navbar = () => (
     justifyContent="space-between"
     border="1px solid"
     alignItems="center"
+    mx={277}
+    px={40}
   >
     <Flex border="1px solid">
       <Image src="/assets/images/Logo_elefante.svg" height={40} />
